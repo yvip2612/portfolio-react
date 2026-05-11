@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Cao Ý | Chuyên gia Marketing</title>
+    <meta name="description" content="Portfolio của Nguyễn Cao Ý - Chuyên gia Marketing. Kinh nghiệm tối ưu ngân sách lớn, tăng trưởng ROAS và các dịch vụ digital marketing chuyên sâu.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,700;1,800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <meta property="og:title" content="Nguyễn Cao Ý | Chuyên gia Marketing">
+    <meta property="og:description" content="Portfolio của Nguyễn Cao Ý - Chuyên gia Marketing kiêm Full Stack Developer.">
+    <meta property="og:image" content="assets/avatar.jpg">
+    <meta property="og:url" content="https://nguyencaoy.digital">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#06b6d4">
+</head>
+<body>
+    <div id="preloader">
+        <div class="loader">
+            <span class="logo-text" style="font-size: 2.5rem; color: var(--text-primary);">Nguyễn Cao Ý<span class="dot" style="color: var(--accent-cyan);"></span></span>
+            <div class="loader-line"></div>
+        </div>
+    </div>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress-bar" id="scrollProgress"></div>
+
+    <div id="particles-js"></div>
+    
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">
+                <span class="logo-text">Nguyễn Cao Ý<span class="dot"></span></span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home" data-i18n="nav.home">Trang chủ</a></li>
+                <li><a href="#about" data-i18n="nav.about">Giới thiệu</a></li>
+                <li><a href="#metrics" data-i18n="nav.metrics">Chỉ số</a></li>
+                <li><a href="#services" data-i18n="nav.services">Dịch vụ</a></li>
+                <li><a href="#blog" data-i18n="nav.blog">Blog</a></li>
+                <li><a href="#contact" data-i18n="nav.contact">Liên hệ</a></li>
+                <li>
+                    <button class="lang-toggle" title="Đổi ngôn ngữ">VN</button>
+                </li>
+                <li>
+                    <button id="themeToggle" class="theme-toggle" title="Đổi giao diện Sáng/Tối">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <div class="hero-text-wrapper">
+                    <div class="hero-badge">
+                        <div class="pulse-dot"></div>
+                        BOOKING SYSTEM | DIGITAL MARKETING
+                    </div>
+                    <h1 class="name"><i>NGUYEN<br><span class="highlight">CAO Y</span><br></i></h1>
+                    <div class="typing-container">
+                        <span class="typing-text"></span><span class="typing-cursor">|</span>
+                    </div>
+                    <div class="hero-quote" data-i18n="hero.quote">
+                        Chuyên gia Performance Marketing với tư duy dữ liệu sắc bén, kết hợp nền tảng kỹ thuật để tối ưu hóa chiến dịch đa kênh và thúc đẩy tăng trưởng doanh thu thực chiến.
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary"><span data-i18n="hero.btn1">NHẬN TƯ VẤN</span> <i class="fas fa-arrow-right"></i></a>
+                        <a href="#services" class="btn btn-secondary" data-i18n="hero.btn2">XEM DỊCH VỤ</a>
+                    </div>
+                </div>
+                <div class="hero-profile-wrapper">
+                    <div class="profile-card">
+                        <div class="floating-tags">
+                            <span class="float-tag tag-1"><i class="fab fa-meta"></i> Meta Ads</span>
+                            <span class="float-tag tag-2"><i class="fas fa-chart-line"></i> Tối ưu ROAS</span>
+                            <span class="float-tag tag-3"><i class="fab fa-react"></i> Full Stack</span>
+                            <span class="float-tag tag-4"><i class="fas fa-robot"></i> AI Content</span>
+                        </div>
+                        <div class="profile-avatar">
+                            <img src="assets/avatar.jpg" alt="Nguyễn Cao Ý" loading="lazy">
+                        </div>
+                        <div class="profile-info">
+                            <h3>NGUYEN CAO Y</h3>
+                            <p data-i18n="hero.role">Chuyên gia Digital Marketing</p>
+                        </div>
+                        <div class="profile-socials">
+                            <a href="https://www.facebook.com/cao.y.nguyen.352237" target="_blank" class="social-btn facebook"><i class="fab fa-facebook-f"></i> FB</a>
+                            <a href="https://www.linkedin.com/in/cao-%C3%BD-nguy%E1%BB%85n-a7751b406/" target="_blank" class="social-btn linkedin"><i class="fab fa-linkedin-in"></i> IN</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="about-container">
+                <div class="about-content">
+                    <div class="section-header" style="text-align: left; margin-bottom: 2rem;">
+                        <h2><span data-i18n="about.title1">Về</span> <span class="highlight" data-i18n="about.title2">Tôi</span></h2>
+                    </div>
+                    <p class="about-bio" data-i18n="about.bio">Là một chuyên gia Digital Marketing kiêm Full Stack Developer (ReactJS, .NET Core), tôi mang tư duy kỹ thuật vào việc tối ưu hóa quảng cáo đa nền tảng và xây dựng hệ thống website hiệu suất cao, giúp doanh nghiệp đạt lợi thế cạnh tranh vượt trội.</p>
+                    
+                    <div class="skills-wrapper">
+                        <h3 class="skills-title" data-i18n="about.skillsTitle">Kỹ năng chuyên môn</h3>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Facebook Ads</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Lên Camp</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Xây dựng Fanpage</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="75%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Google Ads</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="70%"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-timeline">
+                    <h3 class="timeline-title"><i class="fas fa-briefcase"></i> <span data-i18n="about.timelineTitle">Hành trình phát triển</span></h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date" data-i18n="about.job1Date">Tháng 3/2025 - Nay</div>
+                            <div class="timeline-content">
+                                <h4 data-i18n="about.job1Title">Marketing Executive tại FLG Company</h4>
+                                <p data-i18n="about.job1Desc">Quản lý chiến dịch quảng cáo Facebook & TikTok Ads. Tập trung phát triển content, A/B testing, phân tích dữ liệu và tối ưu ngân sách.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date" data-i18n="about.job2Date">Tháng 2/2023 - Nay</div>
+                            <div class="timeline-content">
+                                <h4 data-i18n="about.job2Title">Freelancer Marketing & Developer</h4>
+                                <p data-i18n="about.job2Desc">Quản lý quảng cáo (FB, IG, TikTok), SEO và lập trình Website/Landing Page. Ứng dụng AI và chiến lược marketing thực chiến cho khách hàng.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date" data-i18n="about.job3Date">2018 - 2025</div>
+                            <div class="timeline-content">
+                                <h4 data-i18n="about.job3Title">Cử nhân Đại học HUTECH</h4>
+                                <p data-i18n="about.job3Desc">Tốt nghiệp với GPA 2.52/4.0. Nền tảng vững chắc về Khoa học dữ liệu (Machine Learning, Big Data), Kiểm thử tự động và lập trình Full Stack.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="margin-top: 1rem; font-size: 0.9rem; color: var(--text-secondary);"><span data-i18n="about.portfolioNote">* Chi tiết hồ sơ đầy đủ tại</span> <a href="https://canva.link/pij6oavafqhfs9z" target="_blank" style="color: var(--accent-cyan); text-decoration: underline;">Canva Portfolio</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="metrics" class="metrics-section">
+            <div class="section-header">
+                <h2><span data-i18n="metrics.title1">Con số</span> <span class="highlight" data-i18n="metrics.title2">Ấn tượng</span></h2>
+                <p data-i18n="metrics.subtitle">Những kết quả biết nói chứng minh năng lực thực chiến</p>
+            </div>
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-icon"><i class="fas fa-wallet"></i></div>
+                    <h3 class="metric-number">500M+</h3>
+                    <p class="metric-label" data-i18n="metrics.item1">Ngân Sách Tối Ưu</p>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon"><i class="fas fa-rocket"></i></div>
+                    <h3 class="metric-number">100+</h3>
+                    <p class="metric-label" data-i18n="metrics.item2">Chiến Dịch Hiệu Quả</p>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon"><i class="fas fa-headset"></i></div>
+                    <h3 class="metric-number">24/7</h3>
+                    <p class="metric-label" data-i18n="metrics.item3">Hỗ Trợ Miễn Phí</p>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon"><i class="fas fa-arrow-trend-up"></i></div>
+                    <h3 class="metric-number">X3-X10</h3>
+                    <p class="metric-label" data-i18n="metrics.item4">Tăng Trưởng ROAS</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services-section">
+            <div class="section-header">
+                <h2><span data-i18n="services.title1">Dịch vụ</span> <span class="highlight" data-i18n="services.title2">Chuyên sâu</span></h2>
+                <p data-i18n="services.subtitle">Giải pháp toàn diện cho sự phát triển thương hiệu của bạn</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-share-nodes"></i></div>
+                    <h3 data-i18n="services.item1Title">Tăng tương tác MXH</h3>
+                    <p data-i18n="services.item1Desc">Xây dựng cộng đồng, tăng cường tương tác thật trên các nền tảng Facebook, Instagram, TikTok.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-robot"></i></div>
+                    <h3 data-i18n="services.item2Title">Tài khoản AI Premium</h3>
+                    <p data-i18n="services.item2Desc">Cung cấp các công cụ AI cao cấp giúp tự động hóa và tối ưu quy trình làm việc.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-ad"></i></div>
+                    <h3 data-i18n="services.item3Title">Quảng cáo & Build Page</h3>
+                    <p data-i18n="services.item3Desc">Setup chiến dịch quảng cáo chuyển đổi cao và xây dựng landing page/fanpage chuẩn SEO.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-crown"></i></div>
+                    <h3 data-i18n="services.item4Title">Gói VIP Tương tác</h3>
+                    <p data-i18n="services.item4Desc">Giải pháp đặc quyền đảm bảo lượng tương tác ổn định và chất lượng cao cho thương hiệu.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-star-half-stroke"></i></div>
+                    <h3 data-i18n="services.item5Title">Đánh giá & Map</h3>
+                    <p data-i18n="services.item5Desc">Tối ưu hóa Google Maps, tăng cường đánh giá tích cực để nâng cao uy tín doanh nghiệp.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-certificate"></i></div>
+                    <h3 data-i18n="services.item6Title">Tích xanh nền tảng</h3>
+                    <p data-i18n="services.item6Desc">Hỗ trợ quy trình lên tích xanh chính chủ trên các mạng xã hội phổ biến một cách nhanh chóng.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="blog-section">
+            <div class="section-header">
+                <h2>Blog & <span class="highlight" data-i18n="blog.titleHighlight">Kiến Thức</span></h2>
+                <p data-i18n="blog.subtitle">Những bài viết chia sẻ kinh nghiệm thực chiến mới nhất 2026</p>
+            </div>
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&q=80&w=600" alt="Meta CAPI" loading="lazy">
+                        <span class="blog-tag">Tracking</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta"><i class="far fa-calendar-alt"></i> 05/02/2026</div>
+                        <h3>Meta CAPI 2026: Server-Side Tracking bảo toàn data</h3>
+                        <p>Triển khai Conversions API qua GTM Server-Side để không bỏ sót tín hiệu conversion.</p>
+                        <a href="#" class="read-more" onclick="openModal('capi', 'Meta CAPI 2026: Server-Side Tracking bảo toàn data'); return false;" data-i18n="blog.readMore">Đọc tiếp <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&q=80&w=600" alt="AI Creative" loading="lazy">
+                        <span class="blog-tag">AI Content</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta"><i class="far fa-calendar-alt"></i> 15/01/2026</div>
+                        <h3>AI Creative: Sản xuất 200 content variants trong 1 ngày</h3>
+                        <p>Quy trình kết hợp GPT-4o, Gemini và CapCut AI để tạo creative hàng loạt.</p>
+                        <a href="#" class="read-more" onclick="openModal('ai-creative', 'AI Creative: Sản xuất 200 content variants trong 1 ngày'); return false;" data-i18n="blog.readMore">Đọc tiếp <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600" alt="SEO Performance" loading="lazy">
+                        <span class="blog-tag">Web Perf</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta"><i class="far fa-calendar-alt"></i> 10/01/2026</div>
+                        <h3>Landing Page Tốc Độ Cao: Chìa khóa tăng tỷ lệ chuyển đổi</h3>
+                        <p>Kỹ thuật tối ưu Core Web Vitals giúp giảm tỷ lệ thoát trang và cải thiện điểm chất lượng Ads.</p>
+                        <a href="#" class="read-more" onclick="openModal('seo-perf', 'Landing Page Tốc Độ Cao: Chìa khóa tăng tỷ lệ chuyển đổi'); return false;" data-i18n="blog.readMore">Đọc tiếp <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&q=80&w=600" alt="Omnichannel" loading="lazy">
+                        <span class="blog-tag">Strategy</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta"><i class="far fa-calendar-alt"></i> 20/02/2026</div>
+                        <h3>Omnichannel 2026: Phễu đa kênh Meta + Google + TikTok</h3>
+                        <p>Xây dựng hệ sinh thái quảng cáo toàn diện, tối ưu hóa điểm chạm khách hàng trên mọi nền tảng.</p>
+                        <a href="#" class="read-more" onclick="openModal('omnichannel', 'Omnichannel 2026: Phễu đa kênh Meta + Google + TikTok'); return false;" data-i18n="blog.readMore">Đọc tiếp <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600" alt="Google PMax" loading="lazy">
+                        <span class="blog-tag">Google Ads</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta"><i class="far fa-calendar-alt"></i> 18/02/2026</div>
+                        <h3>Google Performance Max 2026: Làm chủ chiến dịch AI</h3>
+                        <p>Cách cấu hình Asset Groups và Audience Signals để "huấn luyện" AI của Google đạt ROAS tối đa.</p>
+                        <a href="#" class="read-more" onclick="openModal('pmax', 'Google Performance Max 2026: Làm chủ chiến dịch AI'); return false;" data-i18n="blog.readMore">Đọc tiếp <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2><span data-i18n="contact.title1">Hãy bắt đầu</span> <span class="highlight" data-i18n="contact.title2">Dự án mới</span></h2>
+                    <p data-i18n="contact.subtitle">Sẵn sàng đưa doanh nghiệp của bạn lên một tầm cao mới? Hãy liên hệ ngay hôm nay.</p>
+                    
+                    <div class="contact-details">
+                        <a href="mailto:nguyencaoy.2000hcm@gmail.com" class="contact-item">
+                            <div class="icon-box"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <h4 data-i18n="contact.email">Email</h4>
+                                <span>nguyencaoy.2000hcm@gmail.com</span>
+                            </div>
+                        </a>
+                        <a href="tel:0354135008" class="contact-item">
+                            <div class="icon-box"><i class="fas fa-phone-alt"></i></div>
+                            <div>
+                                <h4 data-i18n="contact.phone">Điện thoại</h4>
+                                <span>0354135008</span>
+                            </div>
+                        </a>
+                        <a href="https://www.facebook.com/cao.y.nguyen.352237" target="_blank" class="contact-item">
+                            <div class="icon-box"><i class="fab fa-facebook-f"></i></div>
+                            <div>
+                                <h4>Facebook</h4>
+                                <span>Nguyễn Cao Ý</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm" onsubmit="sendEmail(event)">
+                        <div class="form-group">
+                            <input type="text" id="name" name="from_name" placeholder=" " required>
+                            <label for="name" data-i18n="contact.formName">Họ và tên</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="reply_to" placeholder=" " required>
+                            <label for="email" data-i18n="contact.formEmail">Email của bạn</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder=" " rows="4" required></textarea>
+                            <label for="message" data-i18n="contact.formMessage">Nội dung tin nhắn...</label>
+                        </div>
+                        <button type="submit" id="submitBtn" class="btn btn-primary w-100 btn-submit">
+                            <span class="btn-text" data-i18n="contact.submit">Gửi tin nhắn</span>
+                            <i class="fas fa-paper-plane btn-icon"></i>
+                            <div class="loader-spinner" style="display: none;"><i class="fas fa-spinner fa-spin"></i></div>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Nguyễn Cao Ý<span></span></div>
+            <p data-i18n="footer.copy">&copy; 2026 Nguyễn Cao Ý. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/cao.y.nguyen.352237" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/cao-%C3%BD-nguy%E1%BB%85n-a7751b406/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Particles JS for background effects -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="main.js"></script>
+    <!-- Floating Contact Widget -->
+    <div class="floating-contact">
+        <a href="https://zalo.me/0354135008" target="_blank" class="contact-btn zalo-btn">
+            <svg viewBox="0 0 460.1 436.6" width="35" height="35" xmlns="http://www.w3.org/2000/svg">
+              <path d="M82.6 380.9c-1.8-.8-3.1-1.7-1-3.5 1.3-1.1 2.7-1.9 4.1-2.8 13.1-8.5 25.4-17.8 33.5-31.5 6.8-11.4 5.7-18.1-2.8-26.5C85 285.4 69.4 246.7 82.2 201.2c5.9-20.8 19.3-36.8 37.1-47.5 29.5-17.7 61.5-23.4 95.5-20.2 46.1 4.3 84.1 23.4 111.4 61.2 23.1 32 30.5 69.3 22.8 107.5-6.5 32.3-24.3 56.6-53.1 72.8-40.4 22.7-84 25.6-128.5 13.7-2.3-.6-4-.9-6-1.5-4.2-1.2-8.5-.2-12.2 1.9-19.1 11-39 20.2-59.5 28.5-5.3 2.1-10.7 3.1-16 4.1-1.3.2-2.7.2-4.1.3-1.5 0-3.3-1.2-4.2-2.6-1-1.3-1.1-3.2-1.4-4.8-.4-1.9-2-4.8-1.5-7.5zm19.6-10.8c5.4-3.4 10.6-6.6 15.6-10 16-10.8 32-21.7 48.2-32.3 3.6-2.4 8.2-2.9 12.3-1.6 32.7 10.4 65.9 12 99.4 3 31.6-8.5 56.8-25.7 72-55.9 19-38 17.6-76-5.8-111.5-25-38-64.2-56.7-109.1-61-46.7-4.5-89.8 4.2-125.7 34.6-32.9 27.9-46.3 64.6-40.1 107.1 4.2 28.7 19.4 51.5 43.1 68.4 11.2 8 13.7 16 9.4 28.3-4.6 13.3-11.7 25.5-18.7 37.7-1 1.7-1.8 3.5-3.1 6 5.8-1.6 10.7-3.2 15.8-4.3 12.1-2.7 24.3-5.2 36.4-7.9 3.5-.8 7.3-1.4 10.8-1.9z" fill="#0068ff"/>
+              <path d="M260.6 179.3c1.5 0 2.9-.1 4.3.1 14.7 1.9 26.1 11.6 30 25.9 3.4 12.3-.9 24.4-11.1 31.3-10 6.7-21.5 7.6-32.8 7.7-19.1.1-38.1 0-57.2 0-3.2 0-5.8-1.3-7.5-4-1.7-2.7-1.9-5.7-1.1-8.7 1-3.7 3.7-5.9 7.6-6.1 17.1-.6 34.2-.2 51.3-.2 4.1 0 7.7-1.5 10.2-4.9 3.4-4.6 3-10.3-.9-14.5-3.8-4.2-9-5.6-14.7-5.6-18.3 0-36.5.1-54.8-.1-2.7 0-5.4-.5-7.7-1.8-3.1-1.7-4.7-4.4-4.8-8-.1-3.6 1.4-6.4 4.5-8.1 2.3-1.3 5-1.8 7.7-1.8 25.8 0 51.5 0 77.2 0 3.3 0 5.4.9 6.8 2.3 2 2.1 2.4 4.7 1.8 7.4-1 4.4-4.5 6.4-9.1 6.5-12 0-24.1 0-36.2 0h-5.4c16.3 15.5 32 30.3 48.7 46 2.3-3.6 4-6.4 5.9-9.1.3-.4.8-.8 1.2-1.2.6.4 1.2.8 1.7 1.2-1.9 2.7-3.6 5.5-5.4 8.3-1.6 2.5-3.3 5-4.8 7.6-1.5 2.5-1.5 4.9.4 6.8 1.9 1.9 4.3 1.8 6.7.2 2.4-1.5 4.8-3.3 7-5.2 2.3-2 3.6-1.7 5.2.9 1.5 2.5 1 4.1-1.4 6-2.5 2-5.3 3.8-8 5.6-3.8 2.5-7.4 2-10.5-1-3.4-3.3-6.5-6.9-9.6-10.5-14.9-17-29.7-34-44.6-51-.7-.8-1.5-1.6-2.4-2.5 6.9-2.9 13.9-5.8 21.2-8.8 6.5-2.7 13-5.3 19.6-8.1 4.7-2 8.3-.9 11.2 3.2z" fill="#0068ff"/>
+            </svg>
+        </a>
+        <a href="https://m.me/cao.y.nguyen.352237" target="_blank" class="contact-btn messenger-btn">
+            <i class="fab fa-facebook-messenger"></i>
+        </a>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" title="Lên đầu trang">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Blog Modal -->
+    <div id="blogModal" class="blog-modal">
+        <div class="modal-content">
+            <button class="close-modal"><i class="fas fa-times"></i></button>
+            <div class="modal-header">
+                <h2 id="modalTitle">Tiêu đề bài viết</h2>
+            </div>
+            <div class="modal-body-wrapper">
+                <div id="modalBody" class="modal-body">
+                    <p>Nội dung bài viết...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+</body>
+</html>
